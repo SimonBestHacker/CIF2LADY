@@ -4,8 +4,10 @@ Database(DB) file contains some force constants for semi-empirical lattice dynam
 
 Example of usage:
 1. Choose cif-file using the topmost one button.
-2. Optional: checkbox let programm automatically write potential part in inp-file if there is information about atoms from CIF-file in app's database(DB).
-3. Press second from the top button. Choose path where you want to have converted inp-file for LADY programm.
-4. CONGRATS!
-5. In the latest version you can modify DB-file. Press the third from the top button: 
-   a) 
+2. Press second from the top button. Choose path where you want to have converted inp-file for LADY programm.
+3. Optional: checkbox let programm automatically write potential part in inp-file if there is information about atoms from CIF-file in app's database(DB).
+4. CONGRATS! You have your INP.ldy-file with structure from CIF (with potential)
+5. In the latest version you can modify DB-file. Press the 'FCDB' button: 
+   a) Add to FCDB: Clicking on this button opens the menu for adding an entry to the FCDB database.
+   b) Delete from FCDB: When this button is clicked, the highlighted entry in the treeview is deleted from the FCDB.
+   All of this actions are accompanied by text in the text-area in the main window
